@@ -14,12 +14,13 @@
 1. Убедитесь, что читаете датасет из правильной директории
 2. В ноутбуке используются библиотеки:
 - pandas
--numpy
--matplotlib
--seaborn
--plotly
--sklearn
--yellowbrick
+- numpy
+- matplotlib
+- seaborn
+- plotly
+- sklearn
+- yellowbrick
+
 Убедитесь, что они установлены в вашей среде выполнения
 
 В этом проекте мы провели сегментацию клиентов.
@@ -43,6 +44,6 @@
 
 
 Авторы работы:
-https://github.com/Cashaqu
-https://github.com/Tokarevmm
-https://github.com/DKAvocad00
+ - https://github.com/Cashaqu
+ - https://github.com/Tokarevmm
+ - https://github.com/DKAvocad00
