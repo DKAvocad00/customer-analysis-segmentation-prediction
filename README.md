@@ -1,4 +1,5 @@
-# HW4
+###### HW4 DSCourses
+# ML_Practice
 # Customer Analysis, Segmentation & Prediction
 
 Сегментация клиентов — это подробный анализ идеальных клиентов компании. 
