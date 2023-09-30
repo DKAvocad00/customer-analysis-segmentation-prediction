@@ -1,50 +1,54 @@
-###### HW4 DSCourses
-# ML_Practice
 # Customer Analysis, Segmentation & Prediction
 
-Сегментация клиентов — это подробный анализ идеальных клиентов компании. 
-Это помогает бизнесу лучше понять своих клиентов и облегчает им модификацию продуктов в соответствии с конкретными потребностями, 
-поведением и проблемами различных типов клиентов.
+Welcome to the Customer Analysis, Segmentation & Prediction project repository! In this project, we dive into customer segmentation, a detailed analysis of ideal customers for a company. Understanding customer needs, behaviors, and problems across different segments is crucial for tailoring products and services effectively.
 
-Сегментация клиентов помогает бизнесу модифицировать свой продукт на основе целевых клиентов из разных типов клиентских сегментов. 
-Например, вместо того, чтобы тратить деньги на открытие новых магазинов, компания может улучшить сервис доставки товаров для клиентов, которые предпочитают преимущественно интернет-покупки.
+Customer segmentation allows businesses to modify their products based on the specific needs of different customer types. For example, instead of opening new physical stores, a company might enhance its online shopping experience for customers who prefer internet purchases.
 
-В данной работе рассмотрен датасет marketing_campaign.scv (также доступен на https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign )
+In this work, we explore the dataset [marketing_campaign.csv](link-to-dataset) (also available on [Kaggle](https://www.kaggle.com/datasets/rodsaldanha/marketing-campaign)).
 
-При запуске ноутбука:
-1. Убедитесь, что читаете датасет из правильной директории
-2. В ноутбуке используются библиотеки:
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- plotly
-- sklearn
-- yellowbrick
+## Notebook Usage
 
-Убедитесь, что они установлены в вашей среде выполнения
+1. Ensure that you read the dataset from the correct directory.
+2. The notebook requires the following libraries:
+   - pandas
+   - numpy
+   - matplotlib
+   - seaborn
+   - plotly
+   - sklearn
+   - yellowbrick
+     
+Make sure they are installed in your runtime environment.
 
-В этом проекте мы провели сегментацию клиентов.
-Краткий ход работы:
+## Project Highlights
 
-    1. EDA: статистические показатели, визуализация данных
-    2. Preprocessing: создание и модификация признаков, удаление наименее полезных
-    3. Анализ разделимости с помощью t-SNE, понижение размерноисти с помощью PCA
-    4. Кластеризация клиентов с помощью KMeans, анализ наилучшего число кластеров, обучение модели с помощью RandomForest
+1. **Exploratory Data Analysis (EDA):**
+   - Statistical summaries and data visualization techniques.
+  
+2. **Preprocessing:**
+   - Feature creation and modification, removal of less useful features.
 
-По итогам проекта мы получили 4 кластера, характерными отличиями между которыми являются:
- - уровень дохода
- - уровень покупки за одно посещение
- - количество человек в семье
- - предпочтение онлайн или оффлайн покупок
- - частота совершения покупок
+3. **Analysis:**
+   - Separability analysis using t-SNE, dimensionality reduction using PCA.
 
-Какие покупатели приносят больше всего денег и какое направление развития выбрать:
-Исходя из проведенного анализа - большую часть дохода приносят клиенты, которые совершают покупки непосредственно в магазине.
-В первую очередь нужно направить усилия для улучшения взаимоотношений с этим кластером - улучшить привлекательность магазинов, удобство пребывания и совершения платежей и т.д.
+4. **Customer Clustering:**
+   - KMeans clustering, determination of optimal cluster count, and model training using RandomForest.
 
+## Project Outcome
 
-Авторы работы:
- - https://github.com/Cashaqu
- - https://github.com/Tokarevmm
- - https://github.com/DKAvocad00
+After the project completion, we identified four distinct customer clusters characterized by:
+   - Income levels
+   - Purchase amounts per visit
+   - Family size
+   - Preference for online or offline purchases
+   - Purchase frequency
+
+## Key Insights
+
+The analysis revealed that the highest revenue comes from customers who prefer in-store purchases. Thus, focusing efforts on improving relations with this cluster is recommended. Enhancing the attractiveness of physical stores, ensuring convenience, and optimizing payment processes could be pivotal for growth.
+
+## Authors
+
+- [Cashaqu](https://github.com/Cashaqu)
+- [Tokarevmm](https://github.com/Tokarevmm)
+- [DKAvocad00](https://github.com/DKAvocad00)
